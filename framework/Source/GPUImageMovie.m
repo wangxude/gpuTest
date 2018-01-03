@@ -585,10 +585,6 @@ static CVReturn renderCallback(CVDisplayLinkRef displayLink,
         //        if (captureAsYUV && [GPUImageContext deviceSupportsRedTextures])
         if (CVPixelBufferGetPlaneCount(movieFrame) > 0) // Check for YUV planar inputs to do RGB conversion
         {
-            
-            // fix issue 2221
-            CVPixelBufferLockBaseAddress(movieFrame,0);
-        
 
             if ( (imageBufferWidth != bufferWidth) && (imageBufferHeight != bufferHeight) )
             {
