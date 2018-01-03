@@ -5,8 +5,6 @@
 #import <GPUImage/GPUImageContext.h>
 
 // Sources
-#import <GPUImage/GPUImageMovie.h>
-#import <GPUImage/GPUImageColorConversion.h>
 #import <GPUImage/GPUImageOutput.h>
 #import <GPUImage/GPUImageAVCamera.h>
 #import <GPUImage/GPUImagePicture.h>

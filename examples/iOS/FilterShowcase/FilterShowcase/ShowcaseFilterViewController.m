@@ -870,7 +870,6 @@
         {
             self.title = @"Voronoi";
             self.filterSettingsSlider.hidden = YES;
-            needsSecondImage = YES;
             
             GPUImageJFAVoronoiFilter *jfa = [[GPUImageJFAVoronoiFilter alloc] init];
             [jfa setSizeInPixels:CGSizeMake(1024.0, 1024.0)];
